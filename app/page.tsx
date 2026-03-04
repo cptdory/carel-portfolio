@@ -794,7 +794,7 @@ export default function Portfolio() {
           <div className="hero-portrait-wrap">
             <div className="hero-portrait-frame">
               <img
-                src="/pic.jpg"
+                src="/pic.jpg" className="opacity-50"
                 alt="Carel G. Regala"
                 style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "top", position: "relative", zIndex: 1, display: "block" }}
                 onError={(e) => {
