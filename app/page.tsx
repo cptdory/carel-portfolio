@@ -841,7 +841,7 @@ export default function Portfolio() {
               { label: "Phone", value: "0970 519 9720\n0994 564 7831" },
               { label: "Date of Birth", value: "March 14, 2003" },
               { label: "Citizenship", value: "Filipino" },
-              { label: "Status", value: "Single · Open to opportunities" },
+              { label: "Status", value: "Single" },
             ].map((d) => (
               <div key={d.label} className="detail-item">
                 <span className="detail-label">{d.label}</span>
